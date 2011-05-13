@@ -12,7 +12,7 @@ import tempfile
 # Distributed under GNU/GPL v3 License
 # see http://www.gnu.org/licenses/gpl.html for more.
 
-usage = """usage:\tmysqlbackup username[:password]@hostname[:port]/database [-extra-mysqldump-parameters]
+usage = """Usage:\tmysqlbackup username[:password]@hostname[:port]/database [-extra-mysqldump-parameters]
 \tget gzipped dump of given database."""
 
 mysqldump_path = '/usr/bin/mysqldump'
