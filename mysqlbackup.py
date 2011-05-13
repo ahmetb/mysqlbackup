@@ -82,7 +82,7 @@ if __name__ == '__main__':
         arguments.append(database)
        
         m_pipe = popen(' '.join(arguments))
-        tmp = tempfile.NamedTemporaryFile()
+        tmp = tempfile.NamedTemporaryFile(delete=False)
         tmp.write(m_pipe.read())
         m_pipe.close()
 
@@ -97,4 +97,3 @@ if __name__ == '__main__':
         g_pipe.close()
 
         unlink(tmp.name)
-        tmp.close()

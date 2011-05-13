@@ -3,6 +3,10 @@ mysqlbackup
 
 A simple utility to get gzipped MySQL dumps with easy connection strings written in python.
 
+Requirements
+============
+Script runs on >= Python 2.6 under Unix systems with gzip and mysqldump utils installed under /usr/bin. 
+
 Installation
 ============
 Execute the following command as root (sudo).
