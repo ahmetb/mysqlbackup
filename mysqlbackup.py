@@ -93,7 +93,6 @@ if __name__ == '__main__':
         arguments.append('-c')
         arguments.append(tmp.name)
         arguments.append(' > ' + outfile)
-        print(' '.join(arguments))
         g_pipe = popen(' '.join(arguments))
         g_pipe.close()
 
